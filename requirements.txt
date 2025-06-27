@@ -1,0 +1,49 @@
+# ===== 离线版本完整依赖包 =====
+# 所有依赖将打包到最终的可执行文件中
+
+# 核心框架
+flet==0.24.1                    # UI 框架 - 锁定版本确保稳定性
+markitdown[all]==0.1.2          # 文件转换核心引擎
+
+# 图像处理 (OCR 必需)
+Pillow==10.4.0                  # 图像处理库
+pytesseract==0.3.10             # OCR 文字识别
+
+# 音频处理
+ffmpeg-python==0.2.0            # 音频转录支持
+SpeechRecognition==3.10.0       # 语音识别库
+
+# 文档处理
+python-docx==1.1.2              # Word 文档
+openpyxl==3.1.5                 # Excel 文档
+PyPDF2==3.0.1                   # PDF 处理
+pdfplumber==0.11.4              # PDF 高级处理
+PyMuPDF==1.24.10                # PDF高级处理 (fitz)
+
+# 网页和数据格式
+beautifulsoup4==4.12.3          # HTML 解析
+lxml==5.3.0                     # XML 处理
+pandas==2.2.3                   # 数据处理 (CSV, Excel)
+
+# 可选高级功能 (会打包但可选使用)
+openai==1.54.4                  # LLM 图片描述
+azure-ai-formrecognizer==3.3.0  # Azure Document Intelligence
+yt-dlp==2024.12.13              # YouTube 处理
+
+# 网络请求
+requests==2.32.3                # HTTP 请求库
+
+# 运行时支持
+pyinstaller==6.11.0             # 备用打包工具
+typing-extensions==4.12.2       # 类型支持
+
+# API配置管理 (安全存储)
+keyring==25.5.0                 # 安全密钥存储
+cryptography==43.0.3            # 配置加密
+pydantic==2.10.4                # 配置验证
+
+# 日期时间处理
+python-dateutil==2.9.0          # 日期时间工具
+
+# 系统路径处理 
+pathlib2==2.3.7                 # 路径处理增强 

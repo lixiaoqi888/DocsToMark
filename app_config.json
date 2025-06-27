@@ -1,0 +1,39 @@
+{
+  "openai_api_key": "",
+  "azure_endpoint": "",
+  "enable_basic": true,
+  "enable_azure": false,
+  "enable_llm": false,
+  "theme_mode": "light",
+  "file_size_limits": {
+    "pdf": 50,
+    "pptx": 100,
+    "docx": 50,
+    "xlsx": 25,
+    "jpg": 10,
+    "png": 10,
+    "mp3": 100,
+    "wav": 100
+  },
+  "enable_plugins": true,
+  "theme": "system",
+  "file_size_limit_mb": 100,
+  "default_format": "markdown",
+  "api_config": {
+    "baidu_app_id": "",
+    "baidu_api_key": "",
+    "baidu_secret_key": "",
+    "tencent_secret_id": "",
+    "tencent_secret_key": "",
+    "aliyun_access_key_id": "",
+    "aliyun_access_key_secret": "",
+    "qwen_api_key": "",
+    "zhipu_api_key": "",
+    "xunfei_app_id": "",
+    "xunfei_api_secret": "",
+    "azure_endpoint": "",
+    "azure_key": "",
+    "openai_api_key": "",
+    "openai_model": "gpt-4o"
+  }
+}

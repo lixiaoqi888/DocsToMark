@@ -1,0 +1,115 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific
+*.log
+markitdown_beautiful.log
+conversion_history.json
+markitdown_settings.json
+
+# Development docs and reports (中文文档和报告)
+*说明.md
+*报告.md
+*指南.md
+*总结.md
+*流程.md
+CHECKLIST.md
+测试*.md
+API*.md
+MarkItDown*.md
+界面*.md
+设置*.md
+文件*.md
+问题*.md
+项目*.md
+深度*.md
+完整*.md
+精致*.md
+表面*.md
+国内*.md
+
+# Test files
+test_*.py
+*_test.py
+*测试.py
+*检测.py
+debug_*.py
+verify_*.py
+simple_*.py
+quick_*.py
+advanced_*.py
+final_*.py
+ultimate_*.py
+surface_*.py
+deep_*.py
+api_*.py
+enhanced_*.py
+settings_*feedback.py
+Azure*.py
+简单*.py
+国内*.py
+
+# Backup files
+*_backup.py
+*_clean.py
+main_backup.py
+main_clean.py
+
+# Build files
+*.spec
+build_exe.py
+
+# Audio/video processing temp files
+audio_fix.py
+pdf_enhancement.py
+fix_ocr.py
+bug_fixes.py
+
+# Batch scripts
+start_app.bat
+start_app.ps1 
