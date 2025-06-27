@@ -37,7 +37,7 @@ A beautiful desktop application for converting various document formats to Markd
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/DocsToMark.git
+   git clone https://github.com/lixiaoqi888/DocsToMark.git
    cd DocsToMark
    ```
 
@@ -122,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/yourusername/DocsToMark.git
+   git clone https://github.com/lixiaoqi888/DocsToMark.git
    cd DocsToMark
    ```
 
@@ -168,4 +168,4 @@ flet pack main.py --name "DocsToMark" --add-data "src:src"
 ### 🙏 致谢
 
 - 感谢 [Microsoft MarkItDown](https://github.com/microsoft/markitdown) 提供强大的转换引擎
-- 感谢 [Flet](https://flet.dev/) 提供优秀的 Python GUI 框架 
+- 感谢 [Flet](https://flet.dev/) 提供优秀的 Python GUI 框架
